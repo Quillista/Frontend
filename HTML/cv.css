@@ -1,0 +1,68 @@
+html { font-size: 32px;}
+body { background-image: url(large.jpg);}
+
+h1{
+   display: inline;
+
+
+}
+
+.title { color: green;}
+
+.name { color: red; font-size: 20px;}
+
+#name{ color: yellow; font-size: 1rem; text-shadow: red 10px 10px 1px;}
+
+/*div h1{
+    color: aquamarine;
+}*/
+
+.content > h1 { color: white;} /* para los hijos directos en div*/
+
+.content h1, .content h2 {color: turquoise !important; } /* Para todos los demas, importante lo aplica en toda hoja*/
+
+.content a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+* {
+    font-size: xx-large;
+    background-color: gray;
+}
+.content a:active{ color: slateblue;}
+.content a:visited{ color: green;}
+
+.content{ border: solid 1px red;}
+#coso {color: rgb(75, 59, 59)}
+.content a{
+    
+    display: block;
+}
+.content{ 
+    background-color: white;
+    font-size: 16px;
+    width: 15rem;
+    height: 30rem;
+    background-color: red;
+    border-color: beige;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 20px;
+
+}
+
+
+.coso{
+    font-size: 16px;
+    width: 15rem;
+    border: solid black;
+    border-width: 10px 1px 1px 1px;
+    background-color: #ac3222a6;
+    margin-top: 25px 5px 6px 0px;
+    padding-left: 25px;
+}
